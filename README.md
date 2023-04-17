@@ -9,5 +9,5 @@ sudo ./artix-archlinux-support
 
 # Or:
 ```bash
-curl https://raw.githubusercontent.com/smileofthesun/artixrepo/main/arch-archlinux-support.sh | sudo bash
+curl https://raw.githubusercontent.com/smileofthesun/artixrepo/main/artix-archlinux-support | sudo bash
 ```
