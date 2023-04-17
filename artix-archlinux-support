@@ -45,7 +45,5 @@ Include = /etc/pacman.d/mirrorlist-arch
 #Include = /etc/pacman.d/mirrorlist-arch
 ' >> /etc/pacman.conf
 
-clear
-
 pacman-key --populate archlinux
 pacman -Sy
