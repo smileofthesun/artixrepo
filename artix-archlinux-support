@@ -9,8 +9,8 @@ Server = https://artixlinux.qontinuum.space/artixlinux/universe/os/$arch
 Server = https://mirror1.cl.netactuate.com/artix/universe/$arch
 Server = https://ftp.crifo.org/artix-universe/' >> /etc/pacman.conf
 
-pacman -Sy
-pacman -S artix-archlinux-support
+pacman -Sy --noconfirm
+pacman -S --noconfirm artix-archlinux-support
 
 echo '
 
@@ -46,4 +46,4 @@ Include = /etc/pacman.d/mirrorlist-arch
 ' >> /etc/pacman.conf
 
 pacman-key --populate archlinux
-pacman -Sy
+pacman -Sy --noconfirm
